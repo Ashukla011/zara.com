@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZARA CARD </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@200;300&family=Mulish:wght@200;400&family=PT+Sans&family=Pacifico&family=Shizuru&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6fa3bd69d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/foter.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <h2 id="total_prodcut"></h2>
+     <div id="con"></div>
+     <div id="total_price"></div>
+    <a href="payment.html"> <button id="conti">CONTINOUE</button></a>
+    <div id="footer"></div>
+   
+  </body>
+</html>
+
+<script type="module">
+  import { footers } from "./components/footer.js";
+  
+  let footer = document.getElementById("footer");
+  footer.innerHTML = footers();
+</script>
+
+<script src="./scripts/cart.js"></script>
+
+
+
+
+
+<script type="module">
+  import { header } from "../components/header.js";
+import { footers } from "../components/footer.js";
+let navbar_div = document.getElementById("header");
+let footer_div = document.getElementById("footer");
+
+navbar_div.innerHTML = header();
+footer_div.innerHTML = footers();
+
+</script>

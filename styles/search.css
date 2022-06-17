@@ -1,0 +1,37 @@
+
+#searchbar {
+    margin-top: 1.6em;
+    width: 98%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.2em 0em;
+    font-size: 1.9em;
+    margin-top: 10%;
+   
+   
+  }
+  #searchbar::placeholder{
+    color: #111;
+  }
+  #menu{
+    margin-top: 5%;
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+  }
+  
+  #outer_1{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    cursor: pointer;
+    
+  }
+  #outer_1 img{
+    width: 80%;
+    height: 300px;
+  }
+ 
+ 

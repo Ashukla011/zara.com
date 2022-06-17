@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA India |New Cllaction  online </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/styles/foter.css">
+ <link rel="stylesheet" href="/styles/header.css">
+    <!-- <link rel="stylesheet" href="/styles/navbar.css"> -->
+</head>
+<body>
+   <div id="header"></div>
+  <div>
+    <div class="slideshow-con">
+      <div class="mySlides fade">
+        <img
+          id="slideImg"
+          src="https://static.zara.net/photos///2022/I/0/1/p/2417/324/800/24/w/429/2417324800_2_1_1.jpg?ts=1655306558471"
+        />
+       
+        <div id="sale">
+          <p>New</p>
+            <p>DRESSES</p>
+            <p>SWIMWEAR</p>
+            <p>BASICS</p>    
+            <p>SHOES</p>   
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          id="slideImg"
+          src="https://static.zara.net/photos///contents/mkt/spots/ss22-north-man-new/subhome-xmedia-24//w/1366/IMAGE-portrait-ipad-fill-bfac0c9b-0c76-4385-bec0-c2a798d64bfe-default_0.jpg?ts=1655135332261"
+        />
+       
+
+        <div id="sale">
+            <p>New</p>
+            <p>SUITS</p>
+            <p>JOIN LIFE</p>
+            <p>ZARA ATHLETICZ</p>    
+           
+           </div>
+
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          id="slideImg"
+          src="https://static.zara.net/photos///contents/mkt/spots/ss22-north-kids-babygirl/subhome-xmedia-23-2//w/1366/IMAGE-portrait-ipad-fill-6dafadaf-65dc-4a45-9546-d8797973144a-default_0.jpg?ts=1654784347577"
+        />
+       
+
+        <div id="sale">
+            <p>GIRL</p>
+            <p>BOY</p>
+            <p>MINI </p>
+            <p>SHOES</p>   
+            <p>JOIN LIFE</p>   
+
+           </div>
+  
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;KIDS</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;MAN</a>
+    </div>
+    <video id="bookVdo" width="82%" height="675" autoplay muted loop="true">
+      <source
+        src="https://static.zara.net/video///mkt/2021/12/aw21-happy-new-year-subhomes/subhome-xmedia-video-52-2/w/1808//large-landscape/subhome-xmedia-video-52-2_0.mp4?ts=1640882484837"
+       
+       src="https://youtu.be/L8eb3PjR904"
+        type="video/mp4"
+      />
+    </video>
+    <p id="smallText">INTRODUCING THE FALL/WINTER 2021 COLLECTION</p>
+    <div id="audio-control" class="muted">U</div>
+  </div>
+
+  <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/index.js"></script>
+  
+<script type="module">
+ import { header } from "../components/header.js";
+ import { footers } from "../components/footer.js";
+ let navbar_div = document.getElementById("header");
+ let footer_div = document.getElementById("footer");
+ 
+ navbar_div.innerHTML = header();
+ footer_div.innerHTML = footers();
+ 
+
+ 
+ $(".toggle-btn").click(function () {
+   $(this).toggleClass("click");
+   $(".sidebar").toggleClass("show");
+ });
+ $(".women_section").click(function () {
+   $("nav ul .women_section_1").toggleClass("show");
+ });
+ $(".men").click(function () {
+   $("nav ul .men_section_1").toggleClass("show1");
+ });
+ $("nav ul li").click(function () {
+   $(this).addClass("active").siblings().removeClass("active");
+ });
+
+
+</script>
+<script src="/scripts/slider.js"></script>

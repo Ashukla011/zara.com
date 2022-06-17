@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/foter.css">
+    <link rel="stylesheet" href="/styles/payment.css">
+</head>
+<body>
+    <div id="header"></div>
+    <h2 id="total_price_h2"></h2>
+   <form id="form">
+    <input type="number" id="cart" placeholder="ENTER CART NOMBER" >
+    <br/>
+    <input type="text" id="NAME" placeholder="ENTER CART NAME" required>
+    <br/>
+    <input type="number" id="EX" placeholder="ENTER CART EXPIRY DATA" required>
+    <br/>
+    <input type="number" id="card_1" placeholder="ENTER CART CVV" required>
+    <br/>
+    <button id="submit" onclick="confirm()">CONFORM</button>
+   
+   </form>
+   
+      <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+     import { header } from "../components/header.js";
+ import { footers } from "../components/footer.js";
+ let navbar_div = document.getElementById("header");
+ let footer_div = document.getElementById("footer");
+ 
+ navbar_div.innerHTML = header();
+ footer_div.innerHTML = footers();
+</script>
+<script src="/scripts/payment.js"></script>

@@ -1,0 +1,30 @@
+
+
+
+#total_prodcut{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#con{
+    margin-top: 10%;
+    display: flex;
+    gap:10px
+}
+#con img{
+    width: 70%;
+    height: 300px;
+}
+#total_price{
+    margin-top: 10%;
+    margin-left: 80%;
+    
+}
+#conti{
+    background-color: #111;
+    color: #eee;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    margin-left: 80%;
+    border-radius: 5px;
+}

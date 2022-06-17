@@ -1,0 +1,30 @@
+
+
+
+
+#form{
+   width: 50%;
+   height: 400px;
+ 
+   margin-top: 20%;
+   margin-left: 30%;
+   
+}
+#form input{
+   width: 50%;
+   height: 35px;
+   border-radius: 10px;
+   margin-top: 8%;
+   font-size: 14px;
+   align-items: center;
+  
+}
+button{
+   width: 40%;
+   height: 50px;
+   background-color: #111;
+   color: #eee;
+   border-radius: 4%;
+    margin-top: 5%;
+    cursor: pointer;
+}

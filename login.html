@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log IN -ZARA Official website</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@200;300&family=Mulish:wght@200;400&family=PT+Sans&family=Pacifico&family=Shizuru&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="./styles/login.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/foter.css" />
+</head>
+<body>
+    <div id="header"></div>
+    <div id="logindiv">
+        <div id="log">
+            <section>
+                <h3>LOG IN</h3>
+                <form id="form" onsubmit="login(event)">
+                <div id="ep">
+                    <input type="email" id="email" onclick="clickForPass()" placeholder="Email" required/>
+                    <br/>
+                    <input type="password" id="password" placeholder="password" required/>
+
+                </div>
+                <p class="size6"> HAVE YOU FORGOTTEN YOU PASSWORD?</p>
+                 <a href="">HAVE YOU FORGOTTEN YOU PASSWORD?</a>
+                 <div id="logbtn">
+                    <button type="submit">LOG IN</button>
+                 </div>
+                </form>
+            </section>
+        </div>
+        <div id="reg">
+            <section>
+              <h3>REGISTER</h3>
+              <div class="size">
+                <p>
+                  IF YOU STILL DON'T HAVE A
+                  <span>
+                    <strong>ZARA.com</strong> "ACCOUNT, USE THIS OPTION TO ACCESS
+                    THE REGISTRATION FORM."
+                  </span>
+                </p>
+              </div>
+    
+              <div class="size">
+                <p>
+                  BY GIVING US YOUR DETAILS, PURCHASING <b>ZARA</b>
+    
+                  "WILL BE FASTER AND AN ENJOYABLE EXPERIENCE."
+                </p>
+              </div>
+    
+              <div id="bttn">
+                <button><a href="creatAccount.html"> CREATE ACCOUNT</a></button>
+              </div>
+            </section>
+          </div>
+        </div>
+    
+        <div id="footer"></div>
+      </body>
+    </html>
+<script src="./scripts/login.js" ></script>
+
+<script type="module">
+ import { header } from "../components/header.js";
+ import { footers } from "../components/footer.js";
+ let navbar_div = document.getElementById("header");
+ let footer_div = document.getElementById("footer");
+ 
+ navbar_div.innerHTML = header();
+ footer_div.innerHTML = footers();
+ </script>
+ 

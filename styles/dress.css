@@ -1,0 +1,13 @@
+
+
+#con{
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #111;
+    color: #eee;
+    margin-top: 10%;
+}
+#con img{
+    width: 50%;
+    height: 300px;
+}

@@ -1,0 +1,158 @@
+* {
+    font-family: 'Poppins',sans-serif;
+  
+  
+   
+   
+  
+ }
+ 
+ #logpage {
+     width: 65%;
+     height: 55%;
+   
+     margin-top: 130px;
+     margin-left: 250px;
+ }
+ 
+ #check {
+     display: flex;
+    gap: 22px;
+     margin-top: 22px;
+     align-items: center;
+     font-size: 12px;
+ }
+ 
+ #check_1{
+     color: black;
+ }
+ 
+ 
+ #checklast {
+     font-size: 14px;
+     
+ }
+ 
+ 
+ #fill {
+    
+     margin-top: 20px;
+ }
+ 
+ #fill input {
+     outline: none;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+     margin-top: 35px;
+     padding: 12px;
+ 
+ }
+ 
+ 
+ #same {
+     border: 0.01px solid gray;
+     margin-top: 12px;
+     width: 45%;
+     height: 12px;
+ }
+ 
+ 
+ 
+ #same_2 {
+     width: 45%;
+     height: 12px;
+     margin-top: 12px;
+     margin-left: 15px;
+     border: 0.01px solid gray;
+     
+ }
+ 
+ 
+ #gst{
+     border: 0.01px solid gray;
+     margin-top: 10px;
+     width: 40%;
+     height: 10px;
+ }
+ #com{
+     width: 45%;
+     height: 10px;
+     margin-top: 10px;
+     margin-left: 10px;
+     border: 0.01px solid gray; 
+ }
+ 
+ 
+ 
+ #address {
+     border: 0.01px solid gray;
+     margin-top: 10px;
+     width: 40%;
+     height: 10px;
+ }
+ 
+
+ #locality {
+     border: 0.01px solid gray;
+     border-radius: 3px;
+     width: 40%;
+     height: 10px;
+     margin-top: 10px;
+ }
+ 
+ #city {
+     width: 45%;
+     height: 10px;
+     margin-top: 10px;
+     margin-left: 15px;
+     border: 0.01px solid rgb(94, 79, 79);
+ 
+ }
+ 
+ #state {
+     width: 40%;
+     height: 20px;
+     border: 0.5px solid gray;
+     margin-top: 20px;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+     color: grey;
+    
+ }
+ #state_input {
+     width: 12%;
+     height: 20px;
+     border: 0.5px solid gray;
+     margin-top: 20px;
+     margin-left: 15px;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ border-bottom: none;
+     color: grey;
+    
+ }
+ 
+ 
+ #btn button a{
+ color: white;
+ text-decoration: none;
+ font-size: 10px;
+ }
+ #companyfill{
+     display: none;
+ }
+ #div{
+     font-size: 10px;
+     margin-top: 10px;
+ }
+ #submit{
+    width: 40%;
+    height: 40px;
+    background-color: #111;
+    color: #eee;
+    margin-top: 10px;
+ }
+ 
